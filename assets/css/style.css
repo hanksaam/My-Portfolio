@@ -1,0 +1,131 @@
+body {
+    
+    height:100%;
+    background: gray;    
+
+}
+
+header {
+    position:fixed;
+    top:0px;
+    left:0px;
+    
+    margin:0%;
+    height:85px;
+    width:100%;
+    background:#ffffff;
+    border-bottom:2px solid #cccccc;
+
+}
+
+
+
+.name {
+    float:left;
+    position:relative;
+    left:170px;
+    width:200px;
+    height:85px;
+    top:0px;
+    text-align: center;
+    font-size:35px;
+    padding-left: 50px;
+    background:red;
+    
+}
+
+.namebox {
+    position:absolute;
+    top:25px;   
+    font-size: 30px;
+    font-weight: bold;
+    
+} 
+
+.buttonbox {
+    position:relative;
+    float:right;
+    margin-right:185px;
+    
+}
+
+button {
+    position:relative;
+    top:17px;
+    height:50px;
+    width:65px;
+    text-align: center;
+    color:black;
+    border:none;
+    background:red;
+    
+    
+}
+
+.wrapper {
+    position:absolute;
+    /* z-index:0; */
+    width:960px;
+    top:110px;
+    left:170px;
+    bottom:150px;
+    /* height: ; */
+    border:1px solid black;
+    background:red;
+    /* margin-left:147px; */
+    padding:25px;
+    
+}
+
+.namebox2 {
+    position:relative;
+    /* top:25px;    */
+    font-size: 30px;
+    font-weight: bold;
+    margin:15px;
+}
+
+h1 {
+    position:relative;
+    left:25px;
+    font-size:25px;
+} 
+
+hr {
+    width:930px;
+  
+}
+
+.image {
+    position:relative;
+    float:left;
+    margin-top:15px;
+    margin-left:15px;
+    border:1px solid black;
+}
+
+.p {
+    position:relative; 
+    left:20px;
+    float:clear;
+    margin:20px;
+    
+    
+}
+
+footer {
+    height: 65px;
+    width:100%;
+    position:fixed;
+    bottom:0%;
+    left:0%;
+    background:darkgray;
+    border-top: 5px solid teal;
+    text-align: center;
+
+}
+
+.copy {
+    position:relative;
+    bottom:-45px;
+}
