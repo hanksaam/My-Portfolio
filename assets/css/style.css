@@ -7,15 +7,19 @@ body {
 
 header {
     position:fixed;
+    z-index: 1;
     top:0px;
-    left:0px;
-    
+    left:0px;    
     margin:0%;
     height:85px;
     width:100%;
     background:#ffffff;
     border-bottom:2px solid #cccccc;
+}
 
+nav {
+    width:960px;
+    margin-left:170px;
 }
 
 
@@ -23,14 +27,16 @@ header {
 .name {
     float:left;
     position:relative;
-    left:170px;
-    width:200px;
+    left:0px;
+    width:240px;
     height:85px;
     top:0px;
     text-align: center;
     font-size:35px;
+    font-family: Georgia, Times, Times New Roman, serif;
     padding-left: 50px;
-    background:red;
+    background:teal;
+    color:white;
     
 }
 
@@ -43,9 +49,13 @@ header {
 } 
 
 .buttonbox {
-    position:relative;
+    position:relative; 
     float:right;
-    margin-right:185px;
+    left:50px;
+
+    /* margin-right:235px; 
+    margin-right:0px; */
+    
     
 }
 
@@ -55,25 +65,28 @@ button {
     height:50px;
     width:65px;
     text-align: center;
-    color:black;
+    font-family: Georgia, Times, Times New Roman, serif;
+    color:darkgray;
     border:none;
-    background:red;
+    background:white;
     
     
 }
 
 .wrapper {
     position:absolute;
-    /* z-index:0; */
+    z-index: 0;
     width:960px;
-    top:110px;
+    top:100px;
     left:170px;
-    bottom:150px;
-    /* height: ; */
-    border:1px solid black;
-    background:red;
-    /* margin-left:147px; */
-    padding:25px;
+    min-height:200px;
+    height:flex;
+    margin-bottom:80px;
+    border:1px solid darkgray;
+    background:white;
+    color:gray;
+
+    padding:15px 25px;
     
 }
 
@@ -82,7 +95,7 @@ button {
     /* top:25px;    */
     font-size: 30px;
     font-weight: bold;
-    margin:15px;
+    margin:25px;
 }
 
 h1 {
@@ -96,20 +109,107 @@ hr {
   
 }
 
+table {
+    margin:auto;    
+}
+
+tr {
+    margin:auto ;
+    padding:auto ;
+}
+
+img {
+    margin:25px;
+}
+
+.image6 {
+    visibility: hidden;
+}
+
+.image7 {
+    visibility: hidden;
+}
+
+.image8 {
+    visibility:hidden
+}
+
+.image9 {
+    visibility:hidden;
+}
+
+
 .image {
-    position:relative;
+    /* position:relative; */
     float:left;
-    margin-top:15px;
-    margin-left:15px;
-    border:1px solid black;
+    /* margin-top:15px; */
+    /* margin-left:15px; */
+    margin:25px;
+    border:1px solid darkgray;
+    /* padding-bottom: 25px; */
 }
 
 .p {
     position:relative; 
-    left:20px;
+    left:10px;
     float:clear;
-    margin:20px;
+    height:flex;
+    margin-left:0px;
+    margin-top:25px;    
+    margin-bottom:25px;
+    margin-right:25px;
     
+}
+
+form {
+    height:flex;
+    padding:10px;
+    margin-bottom:25px;
+    margin-left:25px;
+}
+
+label {
+    
+    line-height:20px;
+    margin-left:0px;
+    margin-bottom: 10px;
+    font-family: Georgia, Times, Times New Roman, serif;    
+}
+
+input {
+    line-height:20px;
+    font-size:16px;
+    font-family: Georgia, Times, Times New Roman, serif;
+    margin-left:0px;
+    margin-bottom:10px;
+    padding-left:10px;
+    width:885px;
+}
+
+textarea {
+    height:120px;
+    width:885px;
+    margin-bottom:15px;
+    line-height:20;
+    font-size:16px;
+    font-family: Georgia, Times, Times New Roman, serif;
+    padding-top: 0px;
+    padding-left:10px;
+}
+
+.submit {
+    position:absolute;
+    z-index: 2;
+    bottom:0px;
+    top:495px;
+    left:231px;
+    width: 85px;
+    height:30px;
+    color: darkgray;
+    background:white;
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-size:16px;
+    border:1px solid darkgray;
     
 }
 
