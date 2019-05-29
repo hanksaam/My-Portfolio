@@ -1,7 +1,8 @@
 body {
     
     height:100%;
-    background: gray;    
+    background: url('./assets/images/papyrus.png');
+    background-repeat: repeat;  
 
 }
 
@@ -35,8 +36,8 @@ nav {
     font-size:35px;
     font-family: Georgia, Times, Times New Roman, serif;
     padding-left: 50px;
-    background:teal;
-    color:white;
+    background:#4aaaa5;
+    color:#777777;
     
 }
 
@@ -66,9 +67,9 @@ button {
     width:65px;
     text-align: center;
     font-family: Georgia, Times, Times New Roman, serif;
-    color:darkgray;
+    color:d#777777;
     border:none;
-    background:white;
+    background:#ffffff;
     
     
 }
@@ -82,9 +83,9 @@ button {
     min-height:200px;
     height:flex;
     margin-bottom:80px;
-    border:1px solid darkgray;
-    background:white;
-    color:gray;
+    border:1px solid #dddddd;
+    background:#ffffff;
+    color:#777777;
 
     padding:15px 25px;
     
@@ -118,6 +119,21 @@ tr {
     padding:auto ;
 }
 
+/* images {
+    
+    Images/portfolio-about-me.png
+    Images/portfolio-contact.png
+    Images/portfolio-gallery.png
+
+    validate your html? with...
+    https://validator.w3.org/#validate_by_input
+
+    this is the chrome extension for the colors:
+    https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka
+
+
+} */
+
 img {
     margin:25px;
 }
@@ -145,7 +161,7 @@ img {
     /* margin-top:15px; */
     /* margin-left:15px; */
     margin:25px;
-    border:1px solid darkgray;
+    border:1px solid #dddddd;
     /* padding-bottom: 25px; */
 }
 
@@ -205,11 +221,11 @@ textarea {
     left:231px;
     width: 85px;
     height:30px;
-    color: darkgray;
-    background:white;
+    color: #777777;
+    background:#ffffff;
     font-family: Georgia, Times, Times New Roman, serif;
     font-size:16px;
-    border:1px solid darkgray;
+    border:1px solid #dddddd;
     
 }
 
@@ -219,8 +235,8 @@ footer {
     position:fixed;
     bottom:0%;
     left:0%;
-    background:darkgray;
-    border-top: 5px solid teal;
+    background:#666666;
+    border-top: 5px solid #4aaaa5;
     text-align: center;
 
 }
