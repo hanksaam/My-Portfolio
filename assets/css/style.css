@@ -1,8 +1,7 @@
 body {
-    
-    height:100%;
-    background: url('./assets/images/papyrus.png');
-    background-repeat: repeat;  
+    background: light gray;
+    height:100%; 
+    background: url("../images/concrete_seamless.png");
 
 }
 
@@ -14,7 +13,7 @@ header {
     margin:0%;
     height:85px;
     width:100%;
-    background:#ffffff;
+    background:#777777;
     border-bottom:2px solid #cccccc;
 }
 
@@ -37,7 +36,7 @@ nav {
     font-family: Georgia, Times, Times New Roman, serif;
     padding-left: 50px;
     background:#4aaaa5;
-    color:#777777;
+    color:white;
     
 }
 
@@ -53,6 +52,7 @@ nav {
     position:relative; 
     float:right;
     left:50px;
+    width: flex;
 
     /* margin-right:235px; 
     margin-right:0px; */
@@ -64,15 +64,25 @@ button {
     position:relative;
     top:17px;
     height:50px;
-    width:65px;
+    width:85px;
     text-align: center;
     font-family: Georgia, Times, Times New Roman, serif;
-    color:d#777777;
+    color:#ffffff;
     border:none;
-    background:#ffffff;
-    
+    background:#4aaaa5;
+    text-decoration: none;
+    /* border:1px solid #dddddd; */
     
 }
+button:visited {
+    color:d#ffffff;
+    text-decoration: none;
+
+
+}
+  
+    
+
 
 .wrapper {
     position:absolute;
@@ -136,6 +146,8 @@ tr {
 
 img {
     margin:25px;
+    height: 250px;
+    width: 250px;
 }
 
 .image6 {
@@ -177,11 +189,12 @@ img {
     
 }
 
-form {
+#contact-form {
     height:flex;
-    padding:10px;
+    width: 100%;
+    padding:20px;
     margin-bottom:25px;
-    margin-left:25px;
+    margin: auto;
 }
 
 label {
@@ -213,16 +226,17 @@ textarea {
     padding-left:10px;
 }
 
-.submit {
+#submit {
     position:absolute;
-    z-index: 2;
-    bottom:0px;
-    top:495px;
-    left:231px;
-    width: 85px;
-    height:30px;
-    color: #777777;
-    background:#ffffff;
+    z-index: 99;
+    bottom:35px;
+    right: 10px;
+    /* top:495px; */
+    /* left:21px;  */
+    height:50px;
+    width:85px;
+    color: #ffffff;
+    background:#4aaaa5;
     font-family: Georgia, Times, Times New Roman, serif;
     font-size:16px;
     border:1px solid #dddddd;
