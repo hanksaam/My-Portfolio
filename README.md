@@ -2,8 +2,6 @@
 This is My Portfolio. 
 
 
-
-
 This page started out as something much different. In the beginning, I had bits and pieces here and there, in very different places, that all had to come together in a certain way to become what it is now. This is the result. 
 these are the technologies that I have used:
  html      
