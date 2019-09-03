@@ -77,12 +77,7 @@ button {
 button:visited {
     color:d#ffffff;
     text-decoration: none;
-
-
 }
-  
-    
-
 
 .wrapper {
     position:absolute;
@@ -98,7 +93,6 @@ button:visited {
     color:#777777;
 
     padding:15px 25px;
-    
 }
 
 .namebox2 {
@@ -141,7 +135,6 @@ tr {
     this is the chrome extension for the colors:
     https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka
 
-
 } */
 
 img {
@@ -166,7 +159,6 @@ img {
     visibility:hidden;
 }
 
-
 .image {
     /* position:relative; */
     float:left;
@@ -186,6 +178,7 @@ img {
     margin-top:25px;    
     margin-bottom:25px;
     margin-right:25px;
+color: black;
     
 }
 
