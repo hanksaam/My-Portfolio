@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka">
 </head>
 <header>
@@ -29,31 +30,36 @@
 
     <div class="wrapper">
         <div class="namebox2">
-            <h1>Contact</h1>
+            <h1 id="contact">Contact</h1>
         </div>
         <hr>
         <div>
-            <form id="contact-form">
-                <ul>
-                    <li>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-                    </li>
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-                    </li>
-                    <li>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required="required"></textarea>
-                    </li>
-                </ul>
-                <input type="submit" id="submit">
+            <form class="contact-form" action="mailto:hanksaam@gmail.com" method="post">
+
+                    <div class="form-group">
+               
+                        <input class="form-control" type="text" label="name" placeholder="Name Here...">
+                        <br>
+                        <input class="form-control" type="text" label="subject" placeholder="Subject">
+                        <br>                      
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message here..."></textarea>
+                        <br>
+                    </div>
+               
+                <input id="submit" type="submit" value="submit" onclick="">
+
             </form>
             <hr>
            
-        </div>
+        </div>        
+
     </div>
+    
+        <footer>
+            <div class="copy">
+                Copyright&copy
+            </div>
+        </footer>
 
 </body>
 

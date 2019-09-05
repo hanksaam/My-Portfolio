@@ -27,9 +27,9 @@ nav {
 .name {
     float:left;
     position:relative;
-    left:0px;
-    width:240px;
-    height:85px;
+    left:26px;
+    width:250px;
+    height:83px;
     top:0px;
     text-align: center;
     font-size:35px;
@@ -42,22 +42,28 @@ nav {
 
 .namebox {
     position:absolute;
+    right: 36px;
+    padding: auto;
+    margin: auto;
+    vertical-align: center;
     top:25px;   
     font-size: 30px;
     font-weight: bold;
-    
 } 
 
 .buttonbox {
     position:relative; 
     float:right;
-    left:50px;
+    left:24px;
     width: flex;
+}
 
-    /* margin-right:235px; 
-    margin-right:0px; */
-    
-    
+a:visited {
+    color: white;
+    }
+
+.index:visited {
+    color: blue;
 }
 
 button {
@@ -80,23 +86,25 @@ button:visited {
 }
 
 .wrapper {
-    position:absolute;
+    /* position:absolute; */
     z-index: 0;
-    width:960px;
-    top:100px;
-    left:170px;
-    min-height:200px;
-    height:flex;
-    margin-bottom:80px;
-    border:1px solid #dddddd;
+    width: 960px;
+    top: 100px;
+    left: 170px;
+    margin: auto;
+    min-height: 200px;
+    height: flex;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    border: 1px solid #dddddd;
     background:#ffffff;
     color:#777777;
-
-    padding:15px 25px;
+    font: 30px;
+    padding: 15px 25px;
 }
 
 .namebox2 {
-    position:relative;
+    position: relative;
     /* top:25px;    */
     font-size: 30px;
     font-weight: bold;
@@ -104,13 +112,14 @@ button:visited {
 }
 
 h1 {
-    position:relative;
+    position: relative;
     left:25px;
     font-size:25px;
 } 
 
 hr {
-    width:930px;
+    width:910px;
+    margin: auto;
   
 }
 
@@ -122,20 +131,6 @@ tr {
     margin:auto ;
     padding:auto ;
 }
-
-/* images {
-    
-    Images/portfolio-about-me.png
-    Images/portfolio-contact.png
-    Images/portfolio-gallery.png
-
-    validate your html? with...
-    https://validator.w3.org/#validate_by_input
-
-    this is the chrome extension for the colors:
-    https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka
-
-} */
 
 img {
     margin:25px;
@@ -182,7 +177,7 @@ color: black;
     
 }
 
-#contact-form {
+.contact-form {
     height:flex;
     width: 100%;
     padding:20px;
@@ -190,43 +185,20 @@ color: black;
     margin: auto;
 }
 
-label {
-    
-    line-height:20px;
-    margin-left:0px;
-    margin-bottom: 10px;
-    font-family: Georgia, Times, Times New Roman, serif;    
-}
-
-input {
-    line-height:20px;
-    font-size:16px;
-    font-family: Georgia, Times, Times New Roman, serif;
-    margin-left:0px;
-    margin-bottom:10px;
-    padding-left:10px;
-    width:885px;
-}
-
-textarea {
-    height:120px;
-    width:885px;
-    margin-bottom:15px;
-    line-height:20;
-    font-size:16px;
-    font-family: Georgia, Times, Times New Roman, serif;
-    padding-top: 0px;
-    padding-left:10px;
+#contact {
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    left: 0px;
 }
 
 #submit {
-    position:absolute;
+    position:relative;
     z-index: 99;
-    bottom:35px;
-    right: 10px;
+    bottom: -25px;
     /* top:495px; */
     /* left:21px;  */
-    height:50px;
+    height:35px;
     width:85px;
     color: #ffffff;
     background:#4aaaa5;
@@ -239,7 +211,6 @@ textarea {
 footer {
     height: 65px;
     width:100%;
-    position:fixed;
     bottom:0%;
     left:0%;
     background:#666666;
@@ -250,5 +221,5 @@ footer {
 
 .copy {
     position:relative;
-    bottom:-45px;
+    bottom:0px;
 }
