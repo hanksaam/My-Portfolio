@@ -86,11 +86,11 @@ button:visited {
 }
 
 .wrapper {
-    /* position:absolute; */
     z-index: 0;
     width: 960px;
     top: 100px;
     left: 170px;
+    box-sizing: border-box;
     margin: auto;
     min-height: 200px;
     height: flex;
@@ -101,6 +101,51 @@ button:visited {
     color:#777777;
     font: 30px;
     padding: 15px 25px;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+float: left;
+width: 25%;
+}
+
+img {
+    position: relative; 
+    right: 25px;
+    margin:25px;
+    height: 250px;
+    width: 250px;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+  
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
 
 .namebox2 {
@@ -119,49 +164,7 @@ h1 {
 
 hr {
     width:910px;
-    margin: auto;
-  
-}
-
-table {
-    margin:auto;    
-}
-
-tr {
-    margin:auto ;
-    padding:auto ;
-}
-
-img {
-    margin:25px;
-    height: 250px;
-    width: 250px;
-}
-
-.image6 {
-    visibility: hidden;
-}
-
-.image7 {
-    visibility: hidden;
-}
-
-.image8 {
-    visibility:hidden
-}
-
-.image9 {
-    visibility:hidden;
-}
-
-.image {
-    /* position:relative; */
-    float:left;
-    /* margin-top:15px; */
-    /* margin-left:15px; */
-    margin:25px;
-    border:1px solid #dddddd;
-    /* padding-bottom: 25px; */
+    margin: auto; 
 }
 
 .p {
